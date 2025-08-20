@@ -16,7 +16,6 @@ def adjust_brightness(image_path, factor=1.5):
     save_path = f"{base_name}_brightened_{count}.png"
     img_output.save(save_path)
     img_output.show()
-    print(f"✅ 저장 완료: {save_path}")
 
 if __name__ == "__main__":
     adjust_brightness("밝기조절/image.png", 4)
