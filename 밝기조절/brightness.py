@@ -20,4 +20,4 @@ def adjust_brightness(image_path, factor=2):
     img_output.show()
 
 if __name__ == "__main__":
-    adjust_brightness("밝기조절/image.png", 5)
+    adjust_brightness("image.png", 0.8)
